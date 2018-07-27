@@ -1,0 +1,124 @@
+/* HEADER */
+.container-fluid {
+  padding-top: 40px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  border: 4px black solid;
+  border-radius: 3px;
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+  font-family: "Andale Mono" !important;
+}
+
+h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Andale Mono" !important;
+  padding-top: 10px;
+}
+
+.profilPicture img {
+  width:300px;
+  margin:auto;
+  display:block;
+  margin-top: 25px;
+}
+
+/* INTRODUCTION & EXPERIENCES */
+section .container {
+  margin-top: 45px;
+}
+section .left h5 {
+  text-align: right;
+  font-family: "Avenir" !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+  padding-bottom: 10px;
+}
+
+section .right h5 {
+  text-align: left;
+  font-family: "Avenir" !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+  padding-bottom: 10px;
+}
+
+.desc {
+  font-family: "Avenir";
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.experience h6 {
+  font-family: "Avenir" !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+section .left {
+  padding-right: 50px;
+  border-right: 1px solid black;
+}
+
+section .right {
+  padding-left: 50px;
+}
+
+/* SKILLS */
+.progress {
+  width: 150px;
+
+  margin-bottom: 20px;
+}
+
+.skillName {
+  font-family: "Avenir";
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block !important;
+}
+
+.skills h6 {
+  font-family: "Avenir" !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.lieu {
+  font-family: "Avenir";
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #AFAEAC;
+  font-style: italic;
+}
+
+/* CONTACT */
+.social1 {
+  padding-left: 10px;
+  font-family: "Avenir";
+}
+
+.social2 {
+  padding-left: 10px;
+  font-family: "Avenir";
+  display: inline-block;
+  margin-bottom: 36px;
+}
+
+.contact {
+  font-family: "Avenir";
+  margin: auto;
+  padding-top: 30px;
+}
