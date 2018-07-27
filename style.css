@@ -120,5 +120,6 @@ section .right {
 .contact {
   font-family: "Avenir";
   margin: auto;
-  padding-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
