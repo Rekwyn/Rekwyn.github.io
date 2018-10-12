@@ -123,3 +123,69 @@ section .right {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 767px) {
+  section .left {
+    border-right: none;
+  }
+  .skills h5 {
+    padding-top: 20px;
+    margin-top: 16px;
+  }
+  section .left h5, section .left h6 {
+    text-align: center;
+  }
+  .skills h5 {
+    border-top: 1px solid black;
+    padding-top: 36px;
+    margin-top: 0px;
+  }
+  section .right h5 {
+    text-align: center;
+  }
+  .skills .row {
+    text-align: center;
+  }
+  .progress {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+  .skills h6, .lieu {
+    text-align: center;
+  }
+  .links {
+    text-align: center;
+  }
+  .row .contact {
+    text-align: center;
+  }
+  .intro {
+    border-bottom: 1px solid black;
+  }
+  .experience h5 {
+    padding-top: 20px;
+    margin-top: 16px;
+  }
+  .bordertop {
+    padding-top: 36px !important;
+    border-top: 1px solid black;
+  }
+  section .left {
+    padding-right: 15px;
+  }
+  section .right {
+    padding-left: 15px;
+  }
+  p {
+    text-align: justify;
+  }
+  .contact {
+    border-top: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+ 
+}
+
